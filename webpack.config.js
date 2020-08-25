@@ -13,10 +13,9 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'js/[name].[hash].js',
-    publicPath: 'http://localhost:3001/',
+    publicPath: 'https://eduardoGao.github.io/platzi-badges-webpack',
     chunkFilename: 'js/[id].[chunkhash].js'
   },
-  homepage: "https://eduardoGao.github.io/platzi-badges-webpack",
   optimization: {
     minimizer: [
       new TersetJSPlugin(),

@@ -11,6 +11,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
+  "homepage": "https://eduardoGao.github.io/platzi-badges-webpack",
   "dependencies": {
     "bootstrap": "4.3.1",
     "mini-css-extract-plugin": "0.10.0",
